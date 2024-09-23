@@ -1,0 +1,59 @@
+[
+    {
+        "itemId":"ITEM0001",
+        "itemDesc": "RADIADOR PARA KIA SPORTAGE 2019 SE",
+        "price": 5420.00,
+        "currency":"MXN",
+        "availableQty": 5,
+        "status": "A"
+    },
+    {
+        "itemId":"ITEM0002",
+        "itemDesc": "ESPEJOS LATERALES HIUNDAY ELATRA 2020 LUX",
+        "price": 8310.00,
+        "currency":"MXN",
+        "availableQty": 10,
+        "status": "A"
+    },
+    {
+        "itemId":"ITEM0003",
+        "itemDesc": "MANGUERA DE ALTA PRESION PARA ACELERADOR FORD FOCUS 2018",
+        "price": 3600.00,
+        "currency":"MXN",
+        "availableQty": 10,
+        "status": "A"
+    },
+    {
+        "itemId":"ITEM0004",
+        "itemDesc": "TUBO DE ESCAPE ESC0947-AB PARA CHEVROLET PICKUP",
+        "price": 928.00,
+        "currency":"MXN",
+        "availableQty": 10,
+        "status": "A"
+    },
+    {
+        "itemId":"ITEM0005",
+        "itemDesc": "LUZ DE FRENOS - DERECHO VOLKSVAWEGN JETTA 2020 CLÁSICO",
+        "price": 2765.00,
+        "currency":"MXN",
+        "availableQty": 15,
+        "status": "A"
+    },
+    {
+        "itemId":"ITEM0006",
+        "itemDesc": "LUZ DE FRENOS - DERECHO VOLKSVAWEGN JETTA 2020 CLÁSICO",
+        "price": 2765.00,
+        "currency":"MXN",
+        "availableQty": 15,
+        "status": "A"
+    }
+    ,
+    {
+        "itemId":"ITEM0007",
+        "itemDesc": "LUZ DE FRENOS - IZQUIERDO VOLKSVAWEGN JETTA 2020 CLÁSICO",
+        "price": 2765.00,
+        "currency":"MXN",
+        "availableQty": 15,
+        "status": "A"
+    }
+]

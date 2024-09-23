@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name":"Médico Zootecnista"
+    },
+    {
+        "id": 2,
+        "name":"Oncología"
+    },
+    {
+        "id": 3,
+        "name":"Fisioterapia"
+    },
+    {
+        "id": 4,
+        "name":"Rehabilitación"
+    },
+    {
+        "id": 5,
+        "name":"Imagenología"
+    },
+    {
+        "id": 6,
+        "name":"Fauna silvestre"
+    }
+]

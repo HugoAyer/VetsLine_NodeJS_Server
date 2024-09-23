@@ -1,0 +1,66 @@
+[
+    {
+        "idSpecies": 1,
+        "name": "Perro",
+        "icon": "fa-dog",
+        "Synthoms": [
+            {
+                "idSynthom": 1                
+            },
+            {
+                "idSynthom": 2
+            },
+            {
+                "idSynthom": 3
+            }
+        ]
+    },
+    {
+        "idSpecies": 2,
+        "name": "Gato",
+        "icon": "fa-cat",
+        "Synthoms": [
+            {
+                "idSynthom": 1
+            },
+            {
+                "idSynthom": 2
+            },
+            {
+                "idSynthom": 3
+            }
+        ]
+    },
+    {
+        "idSpecies": 3,
+        "name": "Conejo",
+        "icon": "fa-carrot",
+        "Synthoms": [
+            {
+                "idSynthom": 1
+            },
+            {
+                "idSynthom": 2
+            },
+            {
+                "idSynthom": 3
+            }
+        ]
+    },
+    {
+        "idSpecies": 4,
+        "name": "Ave",
+        "icon": "fa-kiwi-bird",
+        "Synthoms": [
+            {
+                "idSynthom": 1
+            },
+            {
+                "idSynthom": 2
+            },
+            {
+                "idSynthom": 3
+            }
+        ]
+    }
+]

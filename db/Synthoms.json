@@ -1,0 +1,30 @@
+[
+    {
+        "idSynthom": 1,
+        "name": "Diarrea y vómito",
+        "icon": "fa-virus",
+        "layer":"virus",
+        "description":""
+    },
+    {
+        "idSynthom": 2,
+        "name": "Tos o dificultad para respirar",
+        "icon": "fa-virus",
+        "layer":"cough",
+        "description":""
+    },
+    {
+        "idSynthom": 3,
+        "name": "Jadeo constante o ánimo bajo",
+        "icon": "fa-face-frown",
+        "layer":"sad",
+        "description":""
+    },
+    {
+        "idSynthom": 4,
+        "name": "Lágrimas constantes",
+        "icon": "fa-face-sad-tear",
+        "layer":"sad",
+        "description":""
+    }
+]

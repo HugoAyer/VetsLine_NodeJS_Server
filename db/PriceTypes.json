@@ -1,0 +1,27 @@
+[
+    {
+    "type":0,
+    "name":"Seleccione un tipo de consulta",
+    "valid":"N"
+    },
+    {
+    "type":1,
+    "name":"Videollamada",
+    "valid":"Y"
+    },
+    {
+    "type":2,
+    "name":"Cita presencial",
+    "valid":"Y"
+    },
+    {
+    "type":3,
+    "name":"Llamada de seguimiento",
+    "valid":"Y"
+    },
+    {
+    "type":4,
+    "name":"Precio especial",
+    "valid":"Y"
+    }
+]

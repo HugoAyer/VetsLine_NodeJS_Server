@@ -1,0 +1,7 @@
+[
+    {
+    "idMood":1,
+    "name":"Happy",
+    "ico":["fa-solid","fa-face-smile-wink","text-warning"]    
+    }
+]

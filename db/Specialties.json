@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "name": "De compañía"
+    },
+    {
+        "id" : 2,
+        "name": "Exóticos"
+    },
+    {
+        "id" : 3,
+        "name": "Silvestres y de zoológico"
+    },
+    {
+        "id" : 4,
+        "name": "Medicina interna"
+    },
+    {
+        "id" : 5,
+        "name": "Urgencias veterinarias"
+    },
+    {
+        "id" : 6,
+        "name": "Cirugía"
+    },
+    {
+        "id" : 7,
+        "name": "Dermatología"
+    },
+    {
+        "id" : 8,
+        "name": "Fisioterapia"
+    },
+    {
+        "id" : 9,
+        "name": "Oftalmología"
+    },
+    {
+        "id" : 10,
+        "name": "Oncología"
+    },
+    {
+        "id" : 11,
+        "name": "Radiología"
+    },
+    {
+        "id" : 12,
+        "name": "Nutrición animal"
+    }
+]

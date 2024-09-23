@@ -1,0 +1,714 @@
+[
+    {
+        "idVet": 1,
+        "name": "Orlando Ramirez",
+        "displayName": "Med. Vet. Orlando Ramirez",
+        "title": "1",
+        "federalProfessionNumber": "123654abc",
+        "federalTaxId": "ABC20240502C",
+        "createDate": "2024-02-01 12:00:00",
+        "publicPhone1": "3310426859",
+        "publicPhone2": "3310426860",
+        "whatsAppNum1": "3310426859",
+        "whatsAppNum2": "3310426859",
+        "email": "hugo@vet.com",
+        "img_src": "https://bootdey.com/img/Content/avatar/avatar7.png",
+        "background":"../img/vet-back.jpg",
+        "password": "1234",
+        "public_email1": "hugo@public.com",
+        "public_email2": "hugo@public.com",
+        "lastValidationdDate": "2024-02-05",
+        "validationResult": 1,
+        "nextValidationDate": "2025-02-05",
+        "status": "A",
+        "town": "Zapopan",
+        "city": "Zapopan",
+        "county": "",
+        "state": "JAL",
+        "state_desc": "Jalisco",
+        "country": "MEX",
+        "country_desc": "México",
+        "zipCode": "45050",
+        "maps": "https://maps.app.goo.gl/L3XygmW9Z367BiLXA",
+        "address": [
+            {
+                "name": "Consultorio personal",
+                "street": "Av. conocida #1151",
+                "streetNo": "1151",
+                "streetIntNo": "SN",
+                "block": "La escondida",
+                "zipCode": "64000",
+                "town": "Monterrey",
+                "city": "Monterrey",
+                "county": "",
+                "state": "NL",
+                "state_desc": "Jalisco",
+                "country": "MEX",
+                "country_desc": "México",
+                "phone": "3310426859"
+            },
+            {
+                "name": "Veterinaria comunal",
+                "street": "Av. conocida",
+                "streetNo": "1151",
+                "streetIntNo": "SN",
+                "block": "Av. ProlongaciÃ³n de frente",
+                "zipCode": "64000",
+                "town": "Monterrey",
+                "city": "Monterrey",
+                "county": "",
+                "state": "NL",
+                "state_desc": "Jalisco",
+                "country": "MEX",
+                "country_desc": "México",
+                "phone": "3310426860"
+            }
+        ],
+        "specialties": [
+            {
+                "idSpecialty": 1,
+                "name": "Médico general",
+                "experience_years": 8
+            },
+            {
+                "idSpecialty": 5,
+                "name": "Especies pequeñas",
+                "experience_years": 2
+            }
+        ],
+        "education": [],
+        "price_rates": [
+            {
+                "idPrice": 1,
+                "name": "Tarifa estandar",
+                "price": 310,
+                "type": 1
+            },
+            {
+                "idPrice": 2,
+                "name": "Consultorio",
+                "price": 350,
+                "type": 2
+            },
+            {
+                "idPrice": 3,
+                "name": "Nocturna",
+                "price": 400,
+                "type": 1
+            },
+            {
+                "idPrice": 4,
+                "name": "Descuento",
+                "price": 200,
+                "type": 1
+            },
+            {
+                "idPrice": 5,
+                "name": "Seguimiento",
+                "price": 100,
+                "type": 3
+            },
+            {
+                "idPrice": 6,
+                "name": "Precio especial",
+                "price": 150,
+                "type": 4
+            }
+        ],
+        "availability": {
+            "0": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "4",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 2000,
+                    "end": 2330,
+                    "idPrice_videocall": "3",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "monday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 2000,
+                    "end": 2330,
+                    "idPrice_videocall": "3",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "tuesday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 2000,
+                    "end": 2330,
+                    "idPrice_videocall": "3",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "wednesday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 2000,
+                    "end": 2330,
+                    "idPrice_videocall": "3",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "thursday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                }
+            ],
+            "friday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                }
+            ],
+            "saturday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 1200,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                }
+            ],
+            "sunday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 915,
+                    "end": 1730,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": "2",
+                    "idPrice_onSite": "3"
+                },
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 2000,
+                    "end": 2330,
+                    "idPrice_videocall": "3",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "PriceRates": [
+                {
+                    "idPrice": 1,
+                    "name": "Tarifa estandar",
+                    "price": 310,
+                    "type": 1
+                },
+                {
+                    "idPrice": 2,
+                    "name": "Consultorio",
+                    "price": 350,
+                    "type": 2
+                },
+                {
+                    "idPrice": 3,
+                    "name": "Nocturna",
+                    "price": 400,
+                    "type": 1
+                },
+                {
+                    "idPrice": 4,
+                    "name": "Cita presencial normal",
+                    "price": 450,
+                    "type": 2
+                }
+            ],
+            "price_rates": [
+                {
+                    "idPrice": 1,
+                    "name": "Tarifa estandar",
+                    "price": 310,
+                    "type": 1
+                },
+                {
+                    "idPrice": 2,
+                    "name": "Consultorio",
+                    "price": 350,
+                    "type": 2
+                },
+                {
+                    "idPrice": 3,
+                    "name": "Nocturna",
+                    "price": 400,
+                    "type": 1
+                },
+                {
+                    "idPrice": 4,
+                    "name": "Cita presencial normal",
+                    "price": 450,
+                    "type": 2
+                }
+            ]
+        },
+        "billing": 1,
+        "billing_Name": "ORLANDO RAMIREZ VENTURA",
+        "currentRate": 4.5,
+        "currentRates":[
+            {
+                "id": 1,
+                "desc":"Atención",
+                "rate": 5.0
+            },
+            {
+                "id":2,
+                "desc":"Amabilidad",
+                "rate": 4.7
+            },
+            {
+                "id": 3,
+                "desc":"Conocimiento",
+                "rate": 5.0
+            },
+            {
+                "id": 4,
+                "desc":"Comunicación",
+                "rate": 4.5
+            }
+        ],
+        "aboutYou":"Doctor veterinario con más de 20 años de experiencia en cuidados especializados para razas pequeñas.",
+        "titleDesc": "Medico Veterniario Zootecnísta"
+    },
+    {
+        "idVet": 2,
+        "name": "Hugo Chávez",
+        "displayName": "Med.Vet. Zoo. Hugo Chávez",
+        "title": "2",
+        "federalProfessionNumber": "654123cdb",
+        "federalTaxId": "ABC20240502C",
+        "createDate": "2024-02-01 12:00:00",
+        "publicPhone1": "3310426859",
+        "publicPhone2": "3310426860",
+        "whatsAppNum1": "3310426859",
+        "whatsAppNum2": "3310426859",
+        "email": "victor@vet.com",
+        "img_src": "https://bootdey.com/img/Content/avatar/avatar7.png",
+        "background":"../img/vet-back2.jpg",
+        "password": "1234",
+        "public_email1": "hugo@public.com",
+        "public_email2": "hugo@public.com",
+        "lastValidationdDate": "2024-02-05",
+        "validationResult": 1,
+        "nextValidationDate": "2025-02-05",
+        "status": "A",
+        "town": "Zapopan",
+        "city": "Zapopan",
+        "county": "",
+        "state": "JAL",
+        "state_desc": "Jalisco",
+        "country": "MEX",
+        "country_desc": "México",
+        "zipCode": "45050",
+        "maps": "https://maps.app.goo.gl/L3XygmW9Z367BiLXA",
+        "address": [
+            {
+                "street": "Conocida 1151",
+                "streetNo": "1151",
+                "streetIntNo": "SN",
+                "block": "Ciudad del sol",
+                "zipCode": "45050",
+                "town": "Zapopan",
+                "city": "Zapopan",
+                "county": "",
+                "state": "JAL",
+                "country": "MX",
+                "phone": "3310426860"
+            }
+        ],
+        "specialties": [
+            {
+                "idSpecialty": 1,
+                "name": "Médico general",
+                "experience_years": 8
+            },
+            {
+                "idSpecialty": 5,
+                "name": "Especies pequeñas",
+                "experience_years": 2
+            }
+        ],
+        "education": [],
+        "price_rates": [
+            {
+                "idPrice": 1,
+                "name": "Consulta regular",
+                "price": 250,
+                "type": 1
+            },
+            {
+                "idPrice": 2,
+                "name": "Emergencia",
+                "price": 300,
+                "type": 1
+            },
+            {
+                "idPrice": 3,
+                "name": "Nocturna",
+                "price": 400,
+                "type": 1
+            }
+        ],
+        "billing": 1,
+        "billing_Name": "VICTOR HUGO CHAVEZ ALDAPE",
+        "currentRate": 4.2,
+        "currentRates":[
+            {
+                "id": 1,
+                "desc":"Atención",
+                "rate": 4.5
+            },
+            {
+                "id":2,
+                "desc":"Amabilidad",
+                "rate": 4.5
+            },
+            {
+                "id": 3,
+                "desc":"Conocimiento",
+                "rate": 4.5
+            },
+            {
+                "id": 4,
+                "desc":"Comunicación",
+                "rate": 4.0
+            }
+        ],
+        "aboutYou":"La pasión por atender a los animales sólo superada por la pasíón por una buena cerveza",
+        "titleDesc": "Medico Veterniario Zootecnísta"
+    },
+    {
+        "idVet": "430bbbee-b0ae-4851-8895-d1ce09514702",
+        "name": "Víctor Chávez",
+        "displayName": "Víctor Chávez",
+        "title": "2",
+        "federalProffessionNumber": "CAAV861104",
+        "federalTaxId": "",
+        "createDate": "2024-07-10T23:23:01.780Z",
+        "publicPhone1": "",
+        "publicPhone2": "",
+        "whatsAppNum1": "",
+        "whatsAppNum2": "",
+        "email": "victor@vetsaly.com",
+        "img_src": "https://bootdey.com/img/Content/avatar/avatar7.png",
+        "background":"../img/vet-back2.jpg",
+        "password": "1234",
+        "registryComplete": "Y",
+        "public_email1": "",
+        "public_email2": "",
+        "lastValidationDate": "",
+        "validationResult": "",
+        "nextValidationDate": "",
+        "status": "P",
+        "town": "",
+        "city": "Guadalajara",
+        "county": "",
+        "state": "JAL",
+        "state_desc": "Jalisco",
+        "country": "",
+        "country_desc": "",
+        "zipcode": "45050",
+        "maps": "",
+        "address": [
+            {
+                "name": "Domicilio 1",
+                "country": "MEX",
+                "country_desc": "México",
+                "state": "JAL",
+                "state_desc": "Jalisco",
+                "zipCode": "45050",
+                "block": "Ciudad del sol",
+                "city": "Guadalajara",
+                "street": "Av. Cuahutemoc 1151",
+                "maps": "",
+                "phone": "3310426860"
+            }
+        ],
+        "specialties": [
+            {
+                "id": 2,
+                "name": "Exóticos"
+            },
+            {
+                "id": 4,
+                "name": "Medicina interna"
+            },
+            {
+                "id": 6,
+                "name": "Cirugía"
+            }
+        ],
+        "education": [
+            {
+                "name": "Médico Veterinario",
+                "emiter": "Universidad de guadalajara",
+                "expeditionDate": "10/23",
+                "dueDate": "10/29",
+                "url": ""
+            },
+            {
+                "name": "Cirujano",
+                "emiter": "Universidad de guadalajara",
+                "expeditionDate": "10/2024",
+                "dueDate": "10/2034",
+                "url": ""
+            }
+        ],
+        "price_rates": [
+            {
+                "idPrice": 1,
+                "name": "Tarifa regular",
+                "price": 250,
+                "type": 1
+            }
+        ],
+        "availability": {
+            "monday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 1900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "tuesday": [
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 1900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "wednesday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 1900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "thursday": [
+                {
+                    "videocall": "N",
+                    "present": "Y",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 1900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "friday": [
+                {
+                    "videocall": "Y",
+                    "present": "N",
+                    "onSite": "N",
+                    "start": 800,
+                    "end": 1900,
+                    "idPrice_videocall": "1",
+                    "idPrice_present": 1,
+                    "idPrice_onSite": 1
+                }
+            ],
+            "saturday": [],
+            "sunday": []
+        },
+        "billing": 0,
+        "billing_name": "",
+        "names": "Víctor Hugo",
+        "lastName1": "Aldape",
+        "lastName2": "Chávez",
+        "municipality": "",
+        "aboutYou": "Doctor veterinario especializado en perros locos y con trastornos de asesino serial pero extrañamente muy cariñoso",
+        "titleDesc": "Oncología",
+        "currentRate": 5,
+        "currentRates":[
+            {
+                "id": 1,
+                "desc":"Atención",
+                "rate": 5.0
+            },
+            {
+                "id":2,
+                "desc":"Amabilidad",
+                "rate": 5.0
+            },
+            {
+                "id": 3,
+                "desc":"Conocimiento",
+                "rate": 5.0
+            },
+            {
+                "id": 4,
+                "desc":"Comunicación",
+                "rate": 5.0
+            }
+        ]
+    }
+]

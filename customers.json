@@ -1,0 +1,38 @@
+[
+        {
+            "id": 1,
+            "cstmrCode": "C0001",
+            "cstmrName": "VÍCTOR HUGO CHÁVEZ ALDAPE",
+            "balance": "1547.00",
+            "currency": "MXN"
+        },
+        {
+            "id": 2,
+            "cstmrCode": "C0002",
+            "cstmrName": "ANDREY SHEVCHENKO",
+            "balance": "3100.00",
+            "currency": "MXN"
+        },
+        {
+            "id": 3,
+            "cstmrCode": "C0003",
+            "cstmrName": "PAVEL NEDVED",
+            "balance": "5000.00",
+            "currency": "MXN"
+        },
+        {
+            "id": 4,
+            "cstmrCode": "C0005",
+            "cstmrName": "ERIK CANTONÁ",
+            "balance": "7200.00",
+            "currency": "MXN"
+        },
+        {
+            "id": 5,
+            "cstmrCode": "C0006",
+            "cstmrName": "HRISTO STOYSCHKOV",
+            "balance": "700.00",
+            "currency": "MXN"
+        }
+        
+]

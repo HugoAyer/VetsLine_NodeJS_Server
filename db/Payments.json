@@ -1,0 +1,101 @@
+[
+    {
+        "idTransaction": "9f46f38f-4fe3-4be2-9947-644993106d1e",
+        "paymentType": 1,
+        "paymentMethod": {
+            "idCard": "dfs9f8yd897fgv6d97f8gv67d8ftvgd78fv6f8",
+            "supplier": "Mastercard",
+            "type": "credit",
+            "bank": "Banorte",
+            "name": "Por ti",
+            "termination": "1234",
+            "expiration": "092027",
+            "status": "A",
+            "img": "../img/tarjeta-porti.png"
+        },
+        "chargeType": 1,
+        "chargeTotal": 200,
+        "chargeMethod": {
+            "date": "2024-06-25T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "N",
+            "onSite": "N",
+            "start": 1230,
+            "end": 1300,
+            "idPrice_videocall": "4",
+            "price_videocall": 200,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "dateTime": "2024-06-25T15:46:40.134Z",
+        "status": "A"
+    },
+    {
+        "idTransaction": "59d0798c-a51e-41c4-9e81-64804dfa2700",
+        "paymentType": 1,
+        "paymentMethod": {
+            "idCard": "dfs9f8yd897fgv6d97f8gv67d8ftvgd78fv6f8",
+            "supplier": "Mastercard",
+            "type": "credit",
+            "bank": "Banorte",
+            "name": "Por ti",
+            "termination": "1234",
+            "expiration": "092027",
+            "status": "A",
+            "img": "../img/tarjeta-porti.png"
+        },
+        "chargeType": 1,
+        "chargeTotal": 310,
+        "chargeMethod": {
+            "date": "2024-07-31T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "Y",
+            "onSite": "N",
+            "start": 1600,
+            "end": 1630,
+            "idPrice_videocall": "1",
+            "price_videocall": 310,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "dateTime": "2024-07-30T19:06:33.739Z",
+        "status": "A"
+    },
+    {
+        "idTransaction": "419c4193-a4e5-49ec-abb1-e57260807fee",
+        "paymentType": 1,
+        "paymentMethod": {
+            "idCard": "dfs9f8yd897fgv6d97f8gv67d8ftvgd78fv6f8",
+            "supplier": "Mastercard",
+            "type": "credit",
+            "bank": "Banorte",
+            "name": "Por ti",
+            "termination": "1234",
+            "expiration": "092027",
+            "status": "A",
+            "img": "../img/tarjeta-porti.png"
+        },
+        "chargeType": 1,
+        "chargeTotal": 310,
+        "chargeMethod": {
+            "date": "2024-07-31T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "Y",
+            "onSite": "N",
+            "start": 1430,
+            "end": 1500,
+            "idPrice_videocall": "1",
+            "price_videocall": 310,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "dateTime": "2024-07-30T22:09:27.148Z",
+        "status": "A"
+    }
+]

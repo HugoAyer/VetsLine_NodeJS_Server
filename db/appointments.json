@@ -1,0 +1,282 @@
+[
+    {
+        "idOwner": "1",
+        "idVet": "1",
+        "idPet": 3,
+        "pet": {
+            "idOwner": 1,
+            "idPet": 3,
+            "name": "Ollie",
+            "age_years": 8,
+            "idSpecies": 3,
+            "race": "Conejo",
+            "behavior_tags": "#Amistoso #Besucón #Comelón",
+            "behavior_comments": "Es muy curioso y convive con Dolores(pitbull). Descansa gran parte del día pero tiene acceso a varios juguetes para desgastar sus dientes.",
+            "food_comments": "Siempre tiene Heno para comer pero recibe una dotación de verduras verdes al día",
+            "medical_condition": "",
+            "image": "https://bootdey.com/img/Content/avatar/avatar7.png",
+            "species": {
+                "idSpecies": 3,
+                "name": "Conejo",
+                "icon": "fa-carrot",
+                "Synthoms": [
+                    {
+                        "idSynthom": 1,
+                        "Synthom": {
+                            "idSynthom": 1,
+                            "name": "Diarrea y vómito",
+                            "icon": "fa-virus",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 2,
+                        "Synthom": {
+                            "idSynthom": 2,
+                            "name": "Tos o dificultad para respirar",
+                            "icon": "fa-head-side-cough",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 3,
+                        "Synthom": {
+                            "idSynthom": 3,
+                            "name": "Jadeo constante o ánimo bajo",
+                            "icon": "fa-face-grin-beam-sweat",
+                            "description": ""
+                        }
+                    }
+                ]
+            }
+        },
+        "type": 1,
+        "fullDate": "2024-07-02T09:00:00.000Z",
+        "year": 2024,
+        "month": 7,
+        "monthStr": "julio",
+        "dayOfMonth": "",
+        "dayOfWeek": 2,
+        "dayOfWeekStr": "Martes",
+        "createDate": "",
+        "strStartTime": "09:00",
+        "startTime": 900,
+        "endTime": 930,
+        "strEndTime": "09:30",
+        "subject": "Todo el tiempo duerme y no parece querer hacer nada",
+        "Synthom": {
+            "idSynthom": 2,
+            "name": "Tos o dificultad para respirar",
+            "icon": "fa-head-side-cough",
+            "description": "Todo el tiempo duerme y no parece querer hacer nada"
+        },
+        "description": "",
+        "tags": "",
+        "status": "P",
+        "acceptedTime": "",
+        "acceptedNotes": "",
+        "availability": {
+            "date": "2024-06-25T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "N",
+            "onSite": "N",
+            "start": 900,
+            "end": 930,
+            "idPrice_videocall": "4",
+            "price_videocall": 200,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "idTransaction": "59d0798c-a51e-41c4-9e81-64804dfa2700"
+    },
+    {
+        "idOwner": "1",
+        "idVet": "1",
+        "idPet": 2,
+        "pet": {
+            "idOwner": 1,
+            "idPet": 2,
+            "name": "Dolores",
+            "age_years": 7,
+            "idSpecies": 1,
+            "race": "Pitbull(mix)",
+            "behavior_tags": "#Dormilona #Temerosa #Docil",
+            "behavior_comments": "Se sobresalta al menor encuentro con algo desconocido",
+            "food_comments": "Es alérgica al pollo. Come croquetas de salmón.",
+            "medical_condition": "Alérgica al pollo",
+            "image": "../img/dolores.jpg",
+            "species": {
+                "idSpecies": 1,
+                "name": "Perro",
+                "icon": "fa-dog",
+                "Synthoms": [
+                    {
+                        "idSynthom": 1,
+                        "Synthom": {
+                            "idSynthom": 1,
+                            "name": "Diarrea y vómito",
+                            "icon": "fa-virus",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 2,
+                        "Synthom": {
+                            "idSynthom": 2,
+                            "name": "Tos o dificultad para respirar",
+                            "icon": "fa-head-side-cough",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 3,
+                        "Synthom": {
+                            "idSynthom": 3,
+                            "name": "Jadeo constante o ánimo bajo",
+                            "icon": "fa-face-grin-beam-sweat",
+                            "description": ""
+                        }
+                    }
+                ]
+            }
+        },
+        "type": 1,
+        "fullDate": "2024-07-02T05:12:30.000Z",
+        "year": 2024,
+        "month": 7,
+        "monthStr": "julio",
+        "dayOfMonth": "",
+        "dayOfWeek": 2,
+        "dayOfWeekStr": "Martes",
+        "createDate": "",
+        "strStartTime": "12:30",
+        "startTime": 1230,
+        "endTime": 1300,
+        "strEndTime": "13:00",
+        "subject": "Le duele la panza",
+        "Synthom": {
+            "idSynthom": 2,
+            "name": "Tos o dificultad para respirar",
+            "icon": "fa-head-side-cough",
+            "description": "Le duele la panza"
+        },
+        "description": "",
+        "tags": "",
+        "status": "A",
+        "acceptedTime": "",
+        "acceptedNotes": "",
+        "availability": {
+            "date": "2024-06-25T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "N",
+            "onSite": "N",
+            "start": 1230,
+            "end": 1300,
+            "idPrice_videocall": "4",
+            "price_videocall": 200,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "idTransaction": "9f46f38f-4fe3-4be2-9947-644993106d1e"
+    },
+    {
+        "idOwner": "1",
+        "idVet": "430bbbee-b0ae-4851-8895-d1ce09514702",
+        "idPet": 2,
+        "pet": {
+            "idOwner": 1,
+            "idPet": 2,
+            "name": "Dolores",
+            "age_years": 7,
+            "idSpecies": 1,
+            "race": "Pitbull(mix)",
+            "behavior_tags": "#Dormilona #Temerosa #Docil",
+            "behavior_comments": "Se sobresalta al menor encuentro con algo desconocido",
+            "food_comments": "Es alérgica al pollo. Come croquetas de salmón.",
+            "medical_condition": "Alérgica al pollo",
+            "image": "../img/dolores.jpg",
+            "species": {
+                "idSpecies": 1,
+                "name": "Perro",
+                "icon": "fa-dog",
+                "Synthoms": [
+                    {
+                        "idSynthom": 1,
+                        "Synthom": {
+                            "idSynthom": 1,
+                            "name": "Diarrea y vómito",
+                            "icon": "fa-virus",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 2,
+                        "Synthom": {
+                            "idSynthom": 2,
+                            "name": "Tos o dificultad para respirar",
+                            "icon": "fa-head-side-cough",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "idSynthom": 3,
+                        "Synthom": {
+                            "idSynthom": 3,
+                            "name": "Jadeo constante o ánimo bajo",
+                            "icon": "fa-face-grin-beam-sweat",
+                            "description": ""
+                        }
+                    }
+                ]
+            }
+        },
+        "type": 1,
+        "fullDate": "2024-08-02T05:00:00",
+        "year": 2024,
+        "month": 8,
+        "monthStr": "agosto",
+        "dayOfMonth": "",
+        "dayOfWeek": 5,
+        "dayOfWeekStr": "Viernes",
+        "createDate": "",
+        "strStartTime": "14:30",
+        "startTime": 1430,
+        "endTime": 1500,
+        "strEndTime": "15:00",
+        "subject": "Bosteza todo el tiempo",
+        "Synthom": {
+            "idSynthom": 3,
+            "name": "Jadeo constante o ánimo bajo",
+            "icon": "fa-face-grin-beam-sweat",
+            "description": ""
+        },
+        "description": "",
+        "tags": "",
+        "status": "A",
+        "vetAccepted": "P",
+        "vetAcceptedTime": "",
+        "vetAcceptedNotes": "",
+        "ownerAccepted": "P",
+        "ownerAcceptedTime": "",
+        "ownerAcceptedNotes": "",
+        "availability": {
+            "date": "2024-08-02T05:00:00.000Z",
+            "videocall": "Y",
+            "present": "Y",
+            "onSite": "N",
+            "start": 1430,
+            "end": 1500,
+            "idPrice_videocall": "1",
+            "price_videocall": 310,
+            "idPrice_present": "2",
+            "price_present": 350,
+            "idPrice_onSite": "3",
+            "price_onSite": 400
+        },
+        "idTransaction": "419c4193-a4e5-49ec-abb1-e57260807fee"
+    }
+]

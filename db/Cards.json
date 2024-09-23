@@ -1,0 +1,13 @@
+[
+    {
+        "bank":"Banorte",
+        "supplier":"Mastercard",
+        "card":"Por ti",
+        "img":"../img/tarjeta-porti.png"
+    },{
+        "bank":"NU",
+        "supplier":"Mastercard",
+        "card":"débito",
+        "img":"../img/CuentaNu_HEADER.jpg"
+    }
+]

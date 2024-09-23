@@ -1,0 +1,32 @@
+[
+    {
+        "idQuestion":"456cccpp-4321-6548-8895-d1ce09514702",
+        "questionDate":"2024-08-02T09:00:00.000Z",
+        "question":"¿Debo preocuparme sí mi Pitbull está dejando gotas de pipí luego de ir al baño?",
+        "idOwner":1,
+        "answers":[
+            {
+                "idVet":2,
+                "answerDate":"2024-08-02T09:30:00.000Z",
+                "answer":"Ésto puede ser un sintoma para algún problema aún no identificado. Sí no está bajo tratamiento, es necesario llevarlo a una revisión médica.",
+                "likes":[],
+                "disLikes":[]
+            }
+        ]
+    },
+    {
+        "idQuestion":"698llphn-9674-6548-8895-d1ce09514702",
+        "questionDate":"2024-08-04T13:00:00.000Z",
+        "question":"¿Qué puedo hacer para calmar a mi perro durante los truenos?",
+        "idOwner":1,
+        "answers":[
+            {
+                "idVet":2,
+                "answerDate":"2024-08-04T16:17:00.000Z",
+                "answer":"Existen numerosos métodos para calmar a tu mascota durante la lluvia, pero lo mejor que puedes hacer es acompañarla hacerla sentir protegida. También existen soluciones basadas en CBD las cuales deberás revisar con su médico.",
+                "likes":[],
+                "disLikes":[]
+            }
+        ]
+    }
+]

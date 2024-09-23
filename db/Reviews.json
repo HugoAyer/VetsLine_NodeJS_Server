@@ -1,0 +1,83 @@
+[
+    {
+        "idReview":"123aaaee-1234-4321-8895-d1ce09514702",
+        "idOwner":"1",
+        "idVet":"1",
+        "reviewDate":"2024-04-10",
+        "transactionType": 1,
+        "idTransaction": "59d0798c-a51e-41c4-9e81-64804dfa2700",
+        "review":"En verdad es una bendición tener una herramienta tan útil como Vetsaly. Se pasaron de lanza con esto.",
+        "rates": [
+            {
+                "id": 1,                 
+                "rate": 5.0
+            },
+            {
+                "id":2,
+                "rate": 5.0
+            },
+            {
+                "id": 3,
+                "rate": 5.0
+            },
+            {
+                "id": 4,
+                "rate": 5.0
+            }
+        ]
+    },
+    {
+        "idReview":"123aaaee-1234-4321-8895-d1ce09514702",
+        "idOwner":"2",
+        "idVet":"2",
+        "reviewDate":"2024-05-22",
+        "transactionType": 1,
+        "idTransaction": "419c4193-a4e5-49ec-abb1-e57260807fee",
+        "review":"El doctor es buena onda, sabe mucho, pero podría mejorar en su trato con los animales.",
+        "rates": [
+            {
+                "id": 1,
+                "rate": 5.0
+            },
+            {
+                "id":2,
+                "rate": 5.0
+            },
+            {
+                "id": 3,
+                "rate": 5.0
+            },
+            {
+                "id": 4, 
+                "rate": 5.0
+            }
+        ]
+    },
+    {
+        "idReview":"456cccpp-4321-6548-8895-d1ce09514702",
+        "idOwner":"2",
+        "idVet":"2",
+        "reviewDate":"2024-05-22",
+        "transactionType": 1,
+        "idTransaction": "419c4193-a4e5-49ec-abb1-e57260807fee",
+        "review":"Puede parecer un poco malencarado pero sus recomendaciones son buenas y fue amable con mi mascota..",
+        "rates": [
+            {
+                "id": 1,
+                "rate": 5.0
+            },
+            {
+                "id":2,
+                "rate": 4.0
+            },
+            {
+                "id": 3,
+                "rate": 4.0
+            },
+            {
+                "id": 4, 
+                "rate": 5.0
+            }
+        ]
+    }
+]

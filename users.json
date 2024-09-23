@@ -1,0 +1,106 @@
+[
+    {    
+        "id": 1,
+        "username": "Hugo Chavez",        
+        "email": "hugo@conocido.com",
+        "password": "1234",
+        "plan":"Plus",        
+        "freeCalls":[
+            {
+                "id":"asd1fas58d468a4asdasda897a098sd",
+                "status":"A"
+            },
+            {
+                "id":"asd90as09ds87gd89bgf97fg89hf8g7f",
+                "status":"A"
+            },
+            {
+                "id":"frtgh9fg9bf7g8b9f0gbcmdmxbmdf89f8m",
+                "status":"A"
+            },
+            {
+                "id":"dfxbdrg098b89dg7b89dfbgf9dgb0dfgb680x",
+                "status":"A"
+            },
+            {
+                "id":"sdhgser90ht8rt0989hbsr8th709t90s7rt98",
+                "status":"A"
+            }
+        ],
+        "cards":[
+            {
+                "idCard": "dfs9f8yd897fgv6d97f8gv67d8ftvgd78fv6f8",
+                "supplier": "Mastercard",
+                "type": "credit",
+                "bank": "Banorte",
+                "name": "Por ti",
+                "termination": "1234",
+                "expiration": "092027",
+                "status": "A"
+            },
+            {
+                "idCard": "lkmñ5l6kñn7lk56n7kl55kj",
+                "supplier": "Mastercard",
+                "type": "debit",
+                "bank": "NU",
+                "name": "débito",
+                "termination": "5555",
+                "expiration": "032028",
+                "status": "A"
+            }
+        ],
+        "img":"https://bootdey.com/img/Content/avatar/avatar7.png"
+    },
+    {    
+        "id": 2,
+        "username": "Victor Aldape",        
+        "email": "conocido@conocido.com",
+        "password":"1234",
+        "plan":"Plus",
+        "freeCalls":[
+            {
+                "id":"1236544531321916516321351631891",
+                "status":"A"
+            },
+            {
+                "id":"as51a6sd15655ds3a1sd1asd",
+                "status":"A"
+            },
+            {
+                "id":"ds8fasd1f6s8f1sd651f8sd9f8sd1f9sd",
+                "status":"A"
+            },
+            {
+                "id":"as658da54sd15asd46as78d46as7a8sd45as1d4",
+                "status":"A"
+            },
+            {
+                "id":"as54d5a4s8d7ads47a6s7d498as7das9d7asd",
+                "status":"A"
+            }
+        ],
+        "cards":[
+            {
+                "idCard": "ñkln45ñkjb4l5k6jb54klb4k5bkljb",
+                "supplier": "Mastercard",
+                "type": "credit",
+                "bank": "Banorte",
+                "name": "Por ti",
+                "termination": "4321",
+                "expiration": "092027",
+                "status": "A"
+            },
+            {
+                "idCard": "ñlk3n4,5m3ñl,45ñl3km5ñl3kn45n3",
+                "supplier": "Mastercard",
+                "type": "debit",
+                "bank": "NU",
+                "name": "débito",
+                "termination": "8888",
+                "expiration": "032028",
+                "status": "A"
+            }
+        ],
+        "img":"../img/avatar3.jpg"
+    }
+]
