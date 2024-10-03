@@ -168,16 +168,19 @@ app.get('/getAppointmentsByOwner/:idOwner',function(req,res){
     const promise2 = AsyncFunctions.GetPetsAsync(__dirname);
     const promise3 = AsyncFunctions.GetAppointmentsByOwnerAsync(__dirname,req.params.idOwner);
     const promise4 = AsyncFunctions.GetPaymentsAsync(__dirname);
+    const promiseChats = AsyncFunctions.GetChatAsync(__dirname);
 
-    Promise.all([promise1,promise2,promise3,promise4]) //Promise all permite ejecutar un array de promesas, esperando a que cada una de ellas termine para iniciar la siguiente
-        .then(([r1,r2,r3,r4]) => {
+    Promise.all([promise1,promise2,promise3,promise4,promiseChats]) //Promise all permite ejecutar un array de promesas, esperando a que cada una de ellas termine para iniciar la siguiente
+        .then(([r1,r2,r3,r4,dataChats]) => {
             r3.forEach(appointment => {
-                let vet_filtered = r1.filter(vet => vet.idVet == appointment.idVet);
-                let pet_filtered = r2.filter(pet => pet.idPet == appointment.idPet);
-                let payment_filtered = r4.filter(payment => payment.idTransaction === appointment.idTransaction)
+                let vet_filtered = r1.filter(vet => vet.idVet == appointment.idVet); //Obtiene el objeto del vet
+                let pet_filtered = r2.filter(pet => pet.idPet == appointment.idPet); //Obtiene el objeto de la mascota
+                let payment_filtered = r4.filter(payment => payment.idTransaction === appointment.idTransaction) //Filtra el objeto del pago
                 appointment.vet = vet_filtered[0];
                 appointment.pet = pet_filtered[0];
                 if(payment_filtered.length > 0) appointment.payment = payment_filtered[0]
+                let chat_filtered = dataChats.filter(chat => chat.idChat === appointment.idChat)
+                if(chat_filtered.length > 0) appointment.chat = chat_filtered[0]
             })
             res.send(r3)
         }

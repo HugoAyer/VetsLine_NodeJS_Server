@@ -1,0 +1,44 @@
+[
+    {
+        "idChat":"123456789456123",
+        "chat":[
+                {
+                    "date":"2024-06-25T05:05:00.000Z",
+                    "sender":"V",
+                    "senderId":"1",
+                    "message":"Favor de confirmar la edad y peso de la mascota",
+                    "type": 1,
+                    "status": "R"
+                },
+                {
+                    "date":"2024-06-25T05:20:00.000Z",
+                    "sender":"O",
+                    "senderId":"1",
+                    "message":"Tiene 8 años y pesa 9 kilos",
+                    "type": 1,
+                    "status": "R"
+                }
+            ]
+    },
+    {
+        "idChat":"321654987",
+        "chat":[
+                {
+                    "date":"2024-06-15T10:00:00.000Z",
+                    "sender":"V",
+                    "senderId":"1",
+                    "message":"La mascota tiene algún antecedente de enfermedad?",
+                    "type": 1,
+                    "status": "R"
+                },
+                {
+                    "date":"2024-06-15T10:22:00.000Z",
+                    "sender":"O",
+                    "senderId":"1",
+                    "message":"Ninguno conocido",
+                    "type": 1,
+                    "status": "R"
+                }
+            ]
+    }
+]

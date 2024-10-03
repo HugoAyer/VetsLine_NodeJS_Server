@@ -58,7 +58,7 @@
         "dayOfMonth": "",
         "dayOfWeek": 2,
         "dayOfWeekStr": "Martes",
-        "createDate": "",
+        "createDate": "2024-06-25T05:00:00.000Z",
         "strStartTime": "09:00",
         "startTime": 900,
         "endTime": 930,
@@ -89,7 +89,8 @@
             "idPrice_onSite": "3",
             "price_onSite": 400
         },
-        "idTransaction": "59d0798c-a51e-41c4-9e81-64804dfa2700"
+        "idTransaction": "59d0798c-a51e-41c4-9e81-64804dfa2700",
+        "idChat":"123456789456123"
     },
     {
         "idOwner": "1",
@@ -150,7 +151,7 @@
         "dayOfMonth": "",
         "dayOfWeek": 2,
         "dayOfWeekStr": "Martes",
-        "createDate": "",
+        "createDate": "2024-06-15T10:00:00.000Z",
         "strStartTime": "12:30",
         "startTime": 1230,
         "endTime": 1300,
@@ -181,7 +182,8 @@
             "idPrice_onSite": "3",
             "price_onSite": 400
         },
-        "idTransaction": "9f46f38f-4fe3-4be2-9947-644993106d1e"
+        "idTransaction": "9f46f38f-4fe3-4be2-9947-644993106d1e",
+        "idChat":"321654987"
     },
     {
         "idOwner": "1",
