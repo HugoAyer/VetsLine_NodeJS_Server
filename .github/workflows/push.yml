@@ -12,5 +12,7 @@ jobs:
       runs-on: node:16.0.0
       environment: Lab      
       steps:      
+      - name: Checkout the repo
+        uses: actions/checout@v4
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
