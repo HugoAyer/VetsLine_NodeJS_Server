@@ -10,7 +10,7 @@ jobs:
     build:
 
       runs-on: node:16.0.0
-
+      environment: Lab
       steps:
       - uses: actions/checkout@v4
       - name: docker build . --file Dockerfile --tag node-app:$(date +%s)
