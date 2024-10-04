@@ -1,13 +1,12 @@
-name: Docker Image CI
-
 on:
   push:
-    branches: [ "master" ]
+    branches: 
+      - master
   pull_request:
-    branches [ "master" ]
-
-  jobs:
-  
+    branches:
+      - master
+      
+jobs:
     build:
 
       runs-on: node:16.0.0
