@@ -13,4 +13,5 @@ jobs:
       environment: Lab
       steps:
       - uses: actions/checkout@v4
-        run: docker build . --file Dockerfile --tag node-app:$(date +%s)
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
