@@ -10,8 +10,7 @@ jobs:
     build:
 
       runs-on: node:16.0.0
-      environment: Lab
-      steps:
-      - uses: actions/checkout@v4
+      environment: Lab      
+      steps:      
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
