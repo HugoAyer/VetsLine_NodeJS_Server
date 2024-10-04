@@ -1,18 +1,17 @@
-on: push
-name: deploy
-jobs:
-  deploy:
-  name: deploy to cluster
-  runs-on: node:16.0.0
-  environment: Lab
-  steps:
-    uses: actions/checkout@master
-    name: build and push to docker
-    uses: docker/build-push-action@v1
-    with:
-      username: ${{ secrets.DOCKER_USERNAME }}
-      password: ${{ secrets.DOCKER_PASSWORD }}
-      repository: ${{ github.repository }}
-      tag_with_ref: true
-      tag_with_sha: true
-      tags: ${{ github.sha }}
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches [ "master" ]
+
+  jobs:
+  
+    build:
+
+      runs-on: node:16.0.0
+
+      steps:
+      - uses: actions/checkout@v4
+      - name: docker build . --file Dockerfile --tag node-app:$(date +%s)
