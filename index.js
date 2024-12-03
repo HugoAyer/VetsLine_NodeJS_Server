@@ -9,6 +9,7 @@ const AppointmentsContext = require('./Context/AppointmentsContext.js')
 const PriceContext = require('./Context/PriceContext.js')
 const PaymentsContext = require('./Context/PaymentsContext.js')
 const UserReviews = require('./Models/UserReview.js')
+const LoginsContext = require('./Context/LoginsContext.js')
 
 const app = express();
 
@@ -168,16 +169,19 @@ app.get('/getAppointmentsByOwner/:idOwner',function(req,res){
     const promise2 = AsyncFunctions.GetPetsAsync(__dirname);
     const promise3 = AsyncFunctions.GetAppointmentsByOwnerAsync(__dirname,req.params.idOwner);
     const promise4 = AsyncFunctions.GetPaymentsAsync(__dirname);
+    const promiseChats = AsyncFunctions.GetChatAsync(__dirname);
 
-    Promise.all([promise1,promise2,promise3,promise4]) //Promise all permite ejecutar un array de promesas, esperando a que cada una de ellas termine para iniciar la siguiente
-        .then(([r1,r2,r3,r4]) => {
+    Promise.all([promise1,promise2,promise3,promise4,promiseChats]) //Promise all permite ejecutar un array de promesas, esperando a que cada una de ellas termine para iniciar la siguiente
+        .then(([r1,r2,r3,r4,dataChats]) => {
             r3.forEach(appointment => {
-                let vet_filtered = r1.filter(vet => vet.idVet == appointment.idVet);
-                let pet_filtered = r2.filter(pet => pet.idPet == appointment.idPet);
-                let payment_filtered = r4.filter(payment => payment.idTransaction === appointment.idTransaction)
+                let vet_filtered = r1.filter(vet => vet.idVet == appointment.idVet); //Obtiene el objeto del vet
+                let pet_filtered = r2.filter(pet => pet.idPet == appointment.idPet); //Obtiene el objeto de la mascota
+                let payment_filtered = r4.filter(payment => payment.idTransaction === appointment.idTransaction) //Filtra el objeto del pago
                 appointment.vet = vet_filtered[0];
                 appointment.pet = pet_filtered[0];
                 if(payment_filtered.length > 0) appointment.payment = payment_filtered[0]
+                let chat_filtered = dataChats.filter(chat => chat.idChat === appointment.idChat)
+                if(chat_filtered.length > 0) appointment.chat = chat_filtered[0]
             })
             res.send(r3)
         }
@@ -360,11 +364,11 @@ app.get('/getVetById/:id',function(req,res){
         // 'Accept-Encoding': 'UTF-8',
       });      
       let promiseGetVetsById = AsyncFunctions.GetVetsByIdAsync(req.params.id,__dirname) //Obtengo el promise de los datos del Vet
-      let promiseGetProfesionalTitles = AsyncFunctions.GetProfesionalTitlesAsync(__dirname) //Obtengo el promise del catálogo de títulos
+      let promiseGetProfesionalTitles = AsyncFunctions.GetProfesionalTitlesAsync(__dirname) //Obtengo el promise del catálogo de títulos      
       Promise.all([promiseGetVetsById,promiseGetProfesionalTitles]) 
         .then(([dataGetVetsById,dataGetProfesionalTitles]) => {              
             let professional_filtered = dataGetProfesionalTitles.filter(element => element.id == dataGetVetsById[0].title) //Filtro del catálogo de profesiones para obtener la descripción
-            if(professional_filtered.length > 0) dataGetVetsById[0].titleDesc = professional_filtered[0].name //Agrego la descripción a los datos del vet
+            if(professional_filtered.length > 0) dataGetVetsById[0].titleDesc = professional_filtered[0].name //Agrego la descripción a los datos del vet            
             res.end(JSON.stringify(dataGetVetsById));
         }
       )
@@ -509,6 +513,41 @@ app.get('/getVetAvailabilitySlotsById/:id',function(req,res){
        
         res.end(JSON.stringify(days));    
     })
+});
+
+app.put('/putLogin', (req, res) => {
+    let new_login = req.body    
+    LoginsContext.PutLogin(__dirname,new_login)
+        res.sendStatus(200)    
+})
+
+app.get('/GetLastLoginByVet/:idVet',function(req,res){
+    res.writeHead(200, {        
+        'Content-Type': 'text/event-stream; charset=utf-8',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',        
+      });            
+      let promiseGetGetLoginByVet = AsyncFunctions.GetLoginByVetAsync(__dirname,req.params.idVet) //Obtengo el promise del catálogo de títulos      
+      Promise.all([promiseGetGetLoginByVet])
+      .then(([dataLogins])=> {        
+        let sortedLogins = dataLogins.sort((b,a) => { 
+            if(new Date(b.loginDateTime.replace('Z','')).getTime() > new Date(a.loginDateTime.replace('Z','')).getTime())
+                return -1
+            else
+            return 1
+        })
+        let biggestSorted = []
+        if(sortedLogins.length > 0) biggestSorted = sortedLogins[0]
+        //console.log(sortedLogins)
+        res.end(JSON.stringify(biggestSorted))
+        }        
+      )
+      
+    // fs.readFile(__dirname + "/" + "vets.json","utf8",function(err,data){              
+    //     let vets = JSON.parse(data);        
+    //     let data_filter = vets.filter(element => element.idVet == req.params.id);
+    //     res.end(JSON.stringify(data_filter));    
+    // })
 });
 
 //VETS *************************************************************

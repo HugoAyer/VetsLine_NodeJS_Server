@@ -11,6 +11,8 @@ const SpecialtiesContext = require('./Context/SpecialtiesContext.js')
 const ReviewsContext = require('./Context/ReviewsContext.js')
 const MoodsContext = require('./Context/MoodsContext.js')
 const BadgesContext = require('./Context/BadgesContext.js')
+const ChatsContext = require('./Context/ChatsContext.js')
+const LoginsContext = require('./Context/LoginsContext.js')
 
 //Users
 async function getUsersAsync(dirname){
@@ -38,6 +40,12 @@ async function GetVetsByMailAsync(email,dirname){
 }
 async function GetVetsByIdAsync(id,dirname){
     return await VetsContext.GetVetsById(id,dirname)
+}
+async function GetLoginByVetAsync(dirname,idVet){
+    return await LoginsContext.GetLoginByVet(dirname,idVet)
+}
+async function PutLoginAsync(login,dirname){    
+    return await LoginsContext.PutLogin(login,dirname)
 }
 
 //Pets
@@ -108,6 +116,10 @@ async function GetReviewsByVetAsync(idVet,dirname){
 async function GetReviewsByTransactionAsync(idTransaction,transactionType,dirname){
     return await ReviewsContext.GetReviewsByTransaction(idTransaction,transactionType,dirname)
 }
+//Chats
+async function GetChatAsync(dirname){
+    return await ChatsContext.GetChat(dirname)
+}
 
 exports.getUsersAsync = getUsersAsync
 exports.GetCardsAsync = GetCardsAsync
@@ -135,3 +147,6 @@ exports.GetReviewsByVetAsync = GetReviewsByVetAsync
 exports.getUserByIdAsync = getUserByIdAsync
 exports.GetMoodsAsync = GetMoodsAsync
 exports.GetBadgesAsync = GetBadgesAsync
+exports.GetChatAsync = GetChatAsync
+exports.PutLoginAsync = PutLoginAsync
+exports.GetLoginByVetAsync = GetLoginByVetAsync
